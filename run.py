@@ -5,10 +5,10 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from common.genautomata import updateGrid
-from conway import conwayRules
-from darwin import darwinRules
-import religion
-from religion import religionRules
+from automata.conway import conwayRules
+from automata.darwin import darwinRules
+import automata.religion as religion
+from automata.religion import religionRules
 
 def main():
     parser = argparse.ArgumentParser(description="Runs Conway's Game of Life simulation.")
