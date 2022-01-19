@@ -20,12 +20,12 @@ Any number can be added here - note that low numbers will likely result in a sho
 
 #### --type
 ##### Notes which automata to be visualized
-conway\n
-religion\n
+conway <br />
+religion <br />
 darwin
 
 #### --rand
 ##### Tells whether to randomly populate the starting grid of the automata. Note that if omitted (or set to 0), there will be nothing to animate unless you have manually added pixels to the grid. Usually this is done to observe specific starting orientations or note the behavior of various configurations.
-1\n
+1 <br />
 0
 
