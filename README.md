@@ -14,7 +14,7 @@ python3 .../repository_location/run.py --type conway --rand 1
 
 Listed here are the possible flags to be added as command line arguments, what they do, and the possible values for the flags
 
-#### -size
+#### --size
 ##### Provides the size for the generated NxN grid (default is N = 100)
 Any number can be added here - note that low numbers will likely result in a short-lived or uninteresting animations, whereas large grids can incur performance issues.
 
